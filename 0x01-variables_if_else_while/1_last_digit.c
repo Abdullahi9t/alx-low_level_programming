@@ -6,13 +6,13 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n;
+	int n; int l_digit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (l_digit > 5)
-		printf("the last digit of %d is %d and is greater than 5\n", l_digit);
+		printf("the last digit of %d is %d and is greater than 5\n", n, l_digit);
 	else if (l_digit == 0)
 		printf("the last digit of %d is %d and is equal to zero\n", n, l_digit);
 	else if (l_digit < 6)
