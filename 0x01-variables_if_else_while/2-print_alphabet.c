@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * writing a program that print alphabet in lower case
- *follow by a new lin
+ * main - Prints the alphabet
+ *
+ *Return: Always 0 (Success)
  */
- int main()
+int main(void)
 {
 	char alp;
+
 	for (alp = 'a'; alp <= 'z'; alp++)
 		putchar(alp);
 
