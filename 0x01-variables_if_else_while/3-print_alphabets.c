@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h3>
+#include <stdlib.h>
 
 /**
  * main - main block
