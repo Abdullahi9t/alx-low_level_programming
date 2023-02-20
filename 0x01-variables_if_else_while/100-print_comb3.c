@@ -10,7 +10,7 @@ int main(void)
 
 	while (i <= 89)
 	{
-		putchar(i + '01');
+		putchar(i + '0');
 		if (i == 89)
 			break;
 		putchar(',');
