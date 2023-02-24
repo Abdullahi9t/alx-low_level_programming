@@ -1,6 +1,3 @@
-3-print_remening _days
-
-
 #include "main.h"
 
 /**
