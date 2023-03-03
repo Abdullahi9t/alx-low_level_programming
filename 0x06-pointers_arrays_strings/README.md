@@ -1,0 +1,1 @@
+pointer to an arrays
