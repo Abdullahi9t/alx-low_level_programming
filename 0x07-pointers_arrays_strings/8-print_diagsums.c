@@ -6,7 +6,7 @@
  * @size: input
  * Return: Always 0 (success)
  */
-void print_diasums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
 	int sum1, sum2, y;
 
