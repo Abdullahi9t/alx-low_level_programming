@@ -3,11 +3,11 @@
 #include <stdio.h>
 #include "3-calc.h"
 /**
- *main - prints the result of simple operations
- *@argc: The number of arguments supplied to the program.
- *@argv: An array of pointers to the arguments
+ * main - prints the result of simple operations
+ * @argc: The number of arguments supplied to the program.
+ * @argv: An array of pointers to the arguments
  *
- * REturn: Always 0.
+ * Return: Always 0.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
