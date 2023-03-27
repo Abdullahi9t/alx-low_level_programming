@@ -39,7 +39,7 @@ char *_strcpy(char *dest, char *src)
 	while (src[len] != '\0')
 	{
 		len++;
-		}
+	}
 	for (i = 0; i < len; i++)
 	{
 		dest[i] = src[i];
@@ -84,5 +84,6 @@ dog_t *new_dog(char *name, float age, char *owner)
 	_strcpy(dog->name, name);
 	_strcpy(dog->owner, owner);
 	dog->age = age;
+
 	return (dog);
 }
